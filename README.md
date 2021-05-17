@@ -2,7 +2,7 @@
 
 This program allows the user to create a README file after completing a few text prompts.  The data input by the user is automatically formatted to create a professional README file.
 
-# Note
+### Note
 The program remains unfinished but was submitted due to time constraints.  After inputting all information in the terminal prompts, the index.md file in generated, but with all fields remaining 'undefined'.  This is an open defect and is being debugged.  Once corrected, the project will be resubmitted for review.
 
 ## User Story
