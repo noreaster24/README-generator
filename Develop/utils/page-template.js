@@ -1,25 +1,25 @@
-module.exports  = (name, github, title, license, description, installation, usageInformation, contributionGuidelines, test) => {
+module.exports  = (portfolioData) => {
 
     return `
-    ###${title}
-    # ${license}
+    ###${portfolioData.title}
+    # ${portfolioData.license}
 
-    # Created by ${name}
-    # Link to the repository: https://github.com/${github}
+    # Created by ${portfolioData.name}
+    # Link to the repository: https://github.com/${portfolioData.github}
 
     ## Project Description
-    ${description}
+    ${portfolioData.description}
 
     ## Installation Instructions
-    ${installation}
+    ${portfolioData.installation}
 
     ## Usage Information
-    ${usageInformation}
+    ${portfolioData.usageInformation}
 
     ## Contribution Guidelines
-    ${contributionGuidelines}
+    ${portfolioData.contributionGuidelines}
 
     ## Test Procedure
-    ${test}
+    ${portfolioData.test}
 `;
 };
